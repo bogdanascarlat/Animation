@@ -43,7 +43,7 @@ body {
   height: 350px;
   background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
   border-radius: 50%;
-  animation: my-animation 10s linear infinite;
+  animation: my-animation 0.7s linear infinite;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   z-index: 0;
@@ -72,16 +72,6 @@ body {
   animation: animate 1s linear infinite;
   box-sizing: border-box;
   z-index: 3;
-}
-
-.pulsing-circle::before,
-.pulsing-circle::after {
-  content: "";
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
 }
 
 .pulsing-circle::after {
